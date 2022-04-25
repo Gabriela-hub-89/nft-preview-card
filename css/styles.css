@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@300;400;600&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family:'Outfit', sans-serif;;
+}
+main{
+    width: 100%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-width: 250px;
+    height: auto;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
