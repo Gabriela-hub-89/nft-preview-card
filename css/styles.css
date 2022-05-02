@@ -1,4 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@300;400;600&display=swap');
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family:'Outfit', sans-serif;;
+}
+img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 18px;
+}
+p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+}
+.container{
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    max-height: 75%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+}
+.image-card{
+    display: flex;
+    border-radius: 20px;
+    flex-basis: calc(50%);
+    background-color: blueviolet;
+
+}
+.text-card{
+    display: flex;
+    flex-basis: calc(25%);
+    background-color: blue;
+}
+.date-price{
+    display: flex;
+    flex-basis: calc(10%);
+    background-color: brown;
+}
+.author{
+    display: flex;
+    flex-basis: calc(10%);
+    background-color: chartreuse;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@300;400;600&display=swap');
 body{
     background-color: hsl(217, 54%, 11%);
     font-family:'Outfit', sans-serif;;
@@ -11,15 +71,46 @@ img{
     height: auto;
     border-radius: 10px;
 }
+.name {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+span{
+    color: hsl(0, 0%, 100%);
+}
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .card{
-    max-width: 250px;
+    max-width: 300px;
     height: auto;
     padding: 20px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
 }
+.date-price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.price{
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+}
+.author{
+    height: 30px;
+    display: flex;
+    margin: 5px 0;
+    justify-content: space-evenly;
+    
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
