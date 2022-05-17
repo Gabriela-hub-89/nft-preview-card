@@ -9,16 +9,26 @@ html {
 body{
     background-color: hsl(217, 54%, 11%);
     margin: 0;
-    max-width: 1440px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+}
+
 img{
     display: block;
     width: 100%;
     border-radius: 1.5rem;
 }
 h1{
-    font-family:'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif;
     color: hsl(0, 0%, 100%);
     font-weight: 600;
 }
@@ -48,9 +58,9 @@ p{
 .card{
     display: flex;
     flex-direction: column;
-    max-width: 25%;
+    max-width: 340px;
     padding: 1.5rem;
-    margin: 5rem auto;
+    
     background-color: hsl(216, 50%, 16%);
     border-radius: 1.5rem;
 }
